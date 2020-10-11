@@ -1,0 +1,4 @@
+#Sun Oct 11 00:22:54 COT 2020
+base.0=/Users/macbookpro/Documents/projects/FlutterProjects/movies_app/movies-app/build/app/intermediates/dex/debug/mergeDexDebug/out/classes.dex
+path.0=classes.dex
+renamed.0=classes.dex
