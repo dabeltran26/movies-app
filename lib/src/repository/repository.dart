@@ -13,18 +13,6 @@ class MoviesRepository {
   List<Movie> _popular = new List();
   List<Movie> _palying = new List();
 
-  final _popularStreamController = StreamController<List<Movie>>.broadcast();
-  final _playingStreamController = StreamController<List<Movie>>.broadcast();
-
-  Function(List<Movie>) get popularSink => _popularStreamController.sink.add;
-  Function(List<Movie>) get payingSink => _playingStreamController.sink.add;
-
-
-  void disposeStreams() {
-    _popularStreamController?.close();
-    _playingStreamController?.close();
-  }
-
   Future<List<Movie>> response(Uri url) async {
     
     final resp = await http.get( url );
@@ -43,7 +31,6 @@ class MoviesRepository {
     final resp = await response(url);
 
     _palying.addAll(resp);
-    payingSink(_palying);
 
     return resp;
   }
@@ -59,7 +46,6 @@ class MoviesRepository {
     final resp = await response(url);
 
     _popular.addAll(resp);
-    popularSink( _popular );
 
     return resp;
 

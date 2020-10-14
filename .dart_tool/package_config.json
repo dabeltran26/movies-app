@@ -77,7 +77,7 @@
       "name": "flutter_test",
       "rootUri": "file:///Users/macbookpro/flutter/packages/flutter_test",
       "packageUri": "lib/",
-      "languageVersion": "2.2"
+      "languageVersion": "2.10"
     },
     {
       "name": "http",
@@ -141,7 +141,7 @@
     },
     {
       "name": "stack_trace",
-      "rootUri": "file:///Users/macbookpro/flutter/.pub-cache/hosted/pub.dartlang.org/stack_trace-1.10.0-nullsafety.1",
+      "rootUri": "file:///Users/macbookpro/flutter/.pub-cache/hosted/pub.dartlang.org/stack_trace-1.10.0-nullsafety.2",
       "packageUri": "lib/",
       "languageVersion": "2.10"
     },
@@ -188,7 +188,7 @@
       "languageVersion": "2.7"
     }
   ],
-  "generated": "2020-10-11T05:21:27.746296Z",
+  "generated": "2020-10-14T21:21:10.799866Z",
   "generator": "pub",
-  "generatorVersion": "2.10.0"
+  "generatorVersion": "2.11.0-186.0.dev"
 }
